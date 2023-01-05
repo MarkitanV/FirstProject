@@ -1,0 +1,19 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using FirstProject.Models
+@using FirstProject.Service
+@using FirstProject.Domain.Entities
+@using FirstProject.Models.ViewComponents
+
+@{
+    Layout = "_Layout";
+}
+
+@model TextField
+@{
+    ViewBag.Title = Model.MetaTitle;
+    ViewBag.Description = Model.MetaDescription;
+    ViewBag.Keywords = Model.MetaKeywords;
+    
+}
+
+
